@@ -1,0 +1,16 @@
+Pemeriksaan,Jumlah,% baris
+"Nilai hilang (NaN), total sel",0,0.0
+Baris duplikat penuh,0,0.0
+Nilai negatif pada kolom numerik,0,0.0
+amount = 0,16,0.000251468734577894
+amount = 0 yang berlabel fraud,16,0.000251468734577894
+oldbalanceOrg = 0,2102449,33.04376184653492
+Saldo penerima lama dan baru sama-sama 0,2317282,36.42024826250822
+Penerima merchant (saldo tidak dicatat),2151495,33.81460781879163
+Saldo pengirim tidak konsisten (|old - amount - new| > 0.01),5077691,79.80503314672258
+Saldo penerima non-merchant tidak konsisten,2037152,32.01750222392662
+isFlaggedFraud = 1,16,0.000251468734577894
+TRANSFER > 200.000 (definisi aturan pada dokumentasi),409110,6.429898375197639
+TRANSFER > 200.000 yang benar-benar ditandai,16,0.000251468734577894
+Baris ditandai yang diikuti CASH_OUT amount = 0,16,0.000251468734577894
+TRANSFER fraud yang langsung diikuti CASH_OUT fraud pada baris berikutnya,4091,0.06429741207238528

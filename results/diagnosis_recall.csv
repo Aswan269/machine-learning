@@ -1,0 +1,7 @@
+dimensi,kelompok,fraud,recall
+tipe,CASH_OUT,250,0.364
+tipe,TRANSFER,250,0.268
+penerima,baru,316,0.30063291139240506
+penerima,lama,184,0.3423913043478261
+jam,jam 0-8,192,0.5208333333333334
+jam,jam 9-23,308,0.18831168831168832

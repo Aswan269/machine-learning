@@ -1,0 +1,5 @@
+,fraud (%),normal (%)
+amount = oldbalanceOrg (tepat),97.82052843053695,0.0
+Saldo penerima tidak berubah (TRANSFER),99.2921649987796,0.02023403402343366
+Persamaan saldo pengirim berlaku,99.45208815292828,9.904764180384014
+"amount >= saldo awal, saldo > 0 (definisi lama)",98.16446402349486,81.17909682833961
