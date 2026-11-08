@@ -66,8 +66,10 @@ Pada hold-out, model terpilih menangkap 1,407 dari 4,258 fraud (recall 0.33) den
 | | |
 |---|---|
 | Nama | *Synthetic Financial Datasets For Fraud Detection* (PaySim), versi 2 |
+| Pembuat | Edgar Alonso Lopez-Rojas, Ahmad Elmir, Stefan Axelsson |
 | Sumber | https://www.kaggle.com/datasets/ealaxi/paysim1 |
-| Lisensi | CC BY-SA 4.0 |
+| Lisensi | CC BY-SA 4.0: boleh dipakai dan dibagikan dengan mencantumkan atribusi ke pembuat; karya turunan memakai lisensi yang sama |
+| Sitasi | Lopez-Rojas, E. A., Elmir, A., & Axelsson, S. (2016). PaySim: A financial mobile money simulator for fraud detection. *28th European Modeling and Simulation Symposium (EMSS)*, Larnaca, Cyprus. |
 | Berkas | `PS_20174392719_1491204439457_log.csv` (±494 MB, 6,362,620 baris, 11 kolom) |
 | SHA-256 | `16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b` |
 
@@ -108,6 +110,10 @@ Satu kali jalan memakan ±20–25 menit pada laptop Intel i7-13650HX (20 thread)
 - **Reproduksibilitas:** semua model memakai `random_state=42`. Random Forest dijalankan paralel, sehingga skornya bisa berbeda di sekitar desimal keenam antar-jalan (contoh: PR-AUC CV 0.3016738 vs 0.3016728). Ini tidak mengubah angka yang dilaporkan dengan empat desimal.
 - **Data uji sudah dipakai satu kali.** Pekerjaan setelah UTS harus mengambil semua keputusan (fitur, tuning, ambang) dari CV pada periode latih, dan baru mengevaluasi hold-out sekali lagi di akhir.
 - **`Project_Task_02_PaySim.ipynb`** disimpan sebagai riwayat. Hasil pemodelannya memakai kolom saldo dan pembagian acak, sehingga tidak dipakai lagi.
+
+## Penggunaan alat bantu AI
+
+Claude Code (Anthropic) dipakai sebagai alat bantu untuk memperbaiki kode, serta melakukan push ke GitHub. Seluruh angka berasal dari eksekusi notebook. Kelompok memeriksa hasilnya dan bertanggung jawab atas ketepatan isi, analisis, kode, dan hasil yang dikumpulkan.
 
 
 
